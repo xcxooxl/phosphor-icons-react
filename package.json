@@ -20,6 +20,10 @@
       "require": "./dist/index.umd.js",
       "types": "./dist/index.d.ts"
     },
+    "./dist/lib/*": {
+      "import": "./dist/lib/*.es.js",
+      "types": "./dist/lib/*.d.ts"
+    },
     "./dist/icons/*": {
       "import": "./dist/icons/*.es.js",
       "types": "./dist/icons/*.d.ts"
